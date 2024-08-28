@@ -1,0 +1,51 @@
+body{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   }
+   .container{
+    background-color: white;
+    padding: 40px;
+    flex-direction: row;
+   }
+   .login{
+    color: black;
+    align-content: center;
+    width: 200px;
+    margin-bottom:-17px;
+    font-size: 11px;
+    }
+
+  .paragraph{
+   margin-bottom: 19px;
+   padding: 0px;
+   font-size: 10px;
+   color: grey;
+   }
+
+   .username{
+    margin-bottom: 5px;
+    }
+
+   .name{
+    margin-bottom: 10px;
+    }
+
+    .password{
+        margin-bottom: 5px;
+    }
+    button{
+        background-color: rgb(39, 169, 67);
+        margin-top: 10px;
+        height:40px;
+        width: 259px;
+        color: white;
+        border: none;
+        cursor: pointer;
+       }
+
+       button:hover {
+      background-color: rgb(56, 137, 90);
+          }
